@@ -1,0 +1,18 @@
+pkgbase = animefetch
+	pkgdesc = View your favorite anime details instantly in the terminal
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = x86_64
+	license = GPL-3
+	depends = libcurl
+	depends = gcc
+	depends = cmake
+	depends = make
+	source = animefetch.cpp
+	source = modules/json.hpp
+	source = CMakeLists.txt
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = animefetch
